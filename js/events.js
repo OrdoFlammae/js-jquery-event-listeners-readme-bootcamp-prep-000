@@ -7,7 +7,7 @@ function getIt() {
 
 function frameIt() {
   $('img').bind('load', function() {
-    this.
+    this.addClass
   })
 }
 
