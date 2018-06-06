@@ -1,7 +1,13 @@
 //define functions here
+function getIt() {
+  $('p').on('click', function() {
+    alert('Hey!')
+  })
+}
 
-$(document).ready(function(){
+function frameIt() {
+  $('img').bind()
+}
 
-// call functions here
-
+$(document).ready(function() {
 });
