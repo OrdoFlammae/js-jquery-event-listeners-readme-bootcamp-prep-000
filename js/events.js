@@ -7,8 +7,12 @@ function getIt() {
 
 function frameIt() {
   $('img').bind('load', function() {
-    this.addClass
+    this.addClass('tasty');
   })
+}
+
+function pressIt() {
+  
 }
 
 $(document).ready(function() {
